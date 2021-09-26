@@ -1,6 +1,5 @@
 import os
 from pyrogram import Client, filters
-from pyrogram.types import Message, User
 
 bughunter0 = Client(
     "BotNameHere",
