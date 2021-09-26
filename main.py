@@ -11,7 +11,7 @@ bughunter0 = Client(
 
 
 @bughunter0.on_message(filters.forwarded)
-async def forward(bot,message):
+async def forward(bot, message):
 	await message.delete()
 
 	
