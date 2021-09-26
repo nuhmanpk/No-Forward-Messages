@@ -1,13 +1,15 @@
 {
-    "name": "PYROGRAMBOT",
-    "description": "A Modular telegram bot.",
-    "repository": "https://github.com/bughunter0",
+    "name": "No-Forward-Messages",
+    "description": "A telegram bot for deleting forward messages.",
+    "repository": "https://github.com/bughunter0/No-Forward-Messages",
     "keywords": [
-       
         "telegram bot",
         "pyrogram"
     ],
     "env": {
+        "SESSION_NAME": {
+            "description": "Your Bot name or username"
+        },
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather"
         },
